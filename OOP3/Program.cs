@@ -3,10 +3,14 @@
 using OOP3;
 
 IKrediManager ihtiyacKrediManager=new IhtiyacKrediManager();
-ihtiyacKrediManager.Hesapla();
-
 IKrediManager konutKrediManager = new KonutKrediManager();
-konutKrediManager.Hesapla();
-
 IKrediManager tasitKrediManager = new TasitKrediManager();
-tasitKrediManager.Hesapla();
+
+ILoggerService databaseLoggerService = new DatabaseLoggerService();
+ILoggerService fileLoggerService= new FileLoggerService();
+
+BasvuruManager basvuruManager=new BasvuruManager();
+basvuruManager.Basvuruyap(tasitKrediManager,fileLoggerService);
+
+List<IKrediManager> krediler=new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager };
+//basvuruManager.KrediOnBilgilendirmesiYap(krediler);
