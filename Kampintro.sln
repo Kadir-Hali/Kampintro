@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary", "MyDictionar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{8A053B65-F4EC-467C-A364-46F2910ECA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{51535052-20A5-4317-AAE4-63DB36C55480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{51535052-20A5-4317-AAE4-63DB36C55480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{24A03B99-3D8B-4B6F-A49E-1E320F2A422B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{51535052-20A5-4317-AAE4-63DB36C55480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51535052-20A5-4317-AAE4-63DB36C55480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51535052-20A5-4317-AAE4-63DB36C55480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A03B99-3D8B-4B6F-A49E-1E320F2A422B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A03B99-3D8B-4B6F-A49E-1E320F2A422B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A03B99-3D8B-4B6F-A49E-1E320F2A422B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A03B99-3D8B-4B6F-A49E-1E320F2A422B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
